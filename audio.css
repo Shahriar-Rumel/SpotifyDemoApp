@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Signika', sans-serif;
-    background: linear-gradient(100deg,#1a9c47,#191414);
+    background: #1a9c47;
     background-size: cover;
     height: 190vh;
     background-position: center;
@@ -11,12 +11,17 @@ body{
 }
 
 nav{
-    background: linear-gradient(100deg,#1db954,#191414);
+
+     background: radial-gradient(circle,#1db954 100%,#191414 0%); 
     background-size: cover;
     background-position: center;
     color:white;
     display: flex;
-    position: relative;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+    height: 50px;
     align-items: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -37,7 +42,7 @@ nav img{
     position: relative;
     padding-top: 30px;
     display: flex;
-    margin-top: 200px;
+    margin-top: 260px;
     align-items: center;
    
 }
@@ -65,7 +70,7 @@ buttton:focus{
     width:45%;
     background-color: rgba(22, 21, 22, 0.842);
     border-radius: 5px;
-    height:350px;
+    height:360px;
     margin:10px;
     overflow-x: hidden;
     position: absolute;
@@ -79,7 +84,7 @@ buttton:focus{
     width:45%;
     background-color: rgba(22, 21, 22, 0.842);
     border-radius: 5px;
-    height:350px;
+    height:360px;
     margin:10px;
     overflow-x: hidden;
     position: absolute;
@@ -98,7 +103,7 @@ buttton:focus{
     position: absolute;
     left:5px;
     overflow-x: hidden;
-    margin-top:760px;
+    margin-top:770px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -112,7 +117,7 @@ buttton:focus{
     position: absolute;
     right:5px;
     overflow-x: hidden;
-    margin-top:760px;
+    margin-top:770px;
     right:5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -137,18 +142,18 @@ buttton:focus{
     border-radius: 5px;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .thumbnail2 img{
     max-width: 140px;
     border-radius: 5px;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .thumbnail3 img{
     max-width: 140px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -159,11 +164,11 @@ buttton:focus{
     border-radius: 5px;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top:10px;
+    margin-top: 20px;
 }
 .thumbnail5 img{
     max-width: 140px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     margin-left: 50%;
     transform: translateX(-50%);
